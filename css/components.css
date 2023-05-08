@@ -1,0 +1,851 @@
+/* line 4, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background-color: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.main-section__content-container {
+  display: flex;
+  position: relative;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.main-section__first-elipse {
+  position: absolute;
+  top: -25px;
+  right: -15px;
+}
+
+/* line 40, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 48, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.nav-menu__list-item:last-child {
+  margin-right: 0;
+}
+
+/* line 61, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.header-link {
+  display: inline-flex;
+}
+
+/* line 71, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.header-link__logo {
+  width: 134px;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 79, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 84, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565px;
+  height: 220px;
+  background-color: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 97, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  top: 160px;
+  left: -30px;
+  width: 618px;
+  height: 220px;
+  background-color: #F28B64;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-58deg);
+  z-index: 3;
+}
+
+/* line 110, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 608px;
+  height: 220px;
+  background-color: #E2E2E2;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-36deg);
+  z-index: 1;
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+}
+
+/* line 130, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 135, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.right-wrapper__text {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 143, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.icons {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* line 149, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.icons__item {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+/* line 154, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 160, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.right-wrapper__title {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 68px;
+  color: #000;
+  margin: 2px 0 5px 0;
+  z-index: 1;
+}
+
+/* line 171, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.right-wrapper__title:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  width: 65px;
+  height: 1px;
+  background-color: #000;
+}
+
+/* line 183, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.buttons {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+}
+
+/* line 188, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background-color: #F28B64;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 200, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 209, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 215, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 224, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.elipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 229, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.elipse__subtract {
+  width: 130px;
+  height: 130px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 240, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study {
+  padding: 50px 0 60px 0;
+  background-color: white;
+  position: relative;
+}
+
+/* line 246, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary__title {
+  position: relative;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  margin-bottom: 40px;
+}
+
+/* line 254, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary__title:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  width: 105px;
+  height: 1px;
+  background-color: #000;
+}
+
+/* line 266, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 271, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square {
+  position: relative;
+  display: flex;
+  width: 360px;
+  height: 360px;
+  border-radius: 10px;
+  margin-right: 30px;
+  z-index: 5;
+}
+
+/* line 280, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square:last-child {
+  margin-right: 0px;
+}
+
+/* line 284, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square_gray {
+  background-color: #E2E2E2;
+}
+
+/* line 289, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square_orange {
+  background-color: #F28B64;
+}
+
+/* line 293, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square_blue {
+  background-color: #5290EA;
+}
+
+/* line 298, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square__img {
+  margin-top: auto;
+}
+
+/* line 302, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-primary-square__text {
+  font-family: 'Montserrat';
+  margin-bottom: auto;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  transform: rotate(90deg);
+  transform-origin: 23% 36%;
+  min-width: 360px;
+  margin-top: 50px;
+}
+
+/* line 319, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  position: relative;
+}
+
+/* line 325, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  margin-right: 60px;
+}
+
+/* line 332, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 336, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item__img {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 341, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+/* line 348, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* line 355, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary-item__inner {
+  margin-left: 20px;
+}
+
+/* line 360, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+}
+
+/* line 366, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.study-secondary__second-elipse {
+  position: absolute;
+  top: 298px;
+  left: -123px;
+}
+
+/* line 373, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background-color: #F0F0F0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 380, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 168px;
+  padding-top: 46px;
+}
+
+/* line 389, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 393, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 397, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+/* line 403, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__first-elipse {
+  position: absolute;
+  top: 180px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 410, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__figure {
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 417, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.third-section__second-elipse {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+}
+
+/* line 424, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.title__hr {
+  position: relative;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+}
+
+/* line 431, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.title__hr:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  width: 105px;
+  height: 1px;
+  background-color: #000;
+}
+
+/* line 442, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.footer {
+  background-color: white;
+}
+
+/* line 444, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.footer__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+/* line 451, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.footer__title:after {
+  position: absolute;
+  content: "";
+  right: 280px;
+  width: 105px;
+  height: 1px;
+  background-color: #000;
+}
+
+/* line 462, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0;
+}
+
+/* line 468, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-item: center;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1199px) {
+  /* line 478, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .container {
+    width: 960px;
+  }
+  /* line 482, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 487, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 491, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 496, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 501, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 506, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 509, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 513, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 517, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 520, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square__img {
+    height: 270px;
+  }
+  /* line 523, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square__text {
+    min-width: 300px;
+    transform-origin: 24% 24%;
+    font-size: 30px;
+  }
+  /* line 530, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary-item__inner {
+    margin-left: 10px;
+  }
+  /* line 533, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__container {
+    padding-left: 40px;
+  }
+  /* line 537, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 543, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .main-section {
+    min-height: 530px;
+  }
+  /* line 547, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .container {
+    width: 720px;
+  }
+  /* line 551, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 556, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 561, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-orange {
+    width: 410px;
+    height: 130px;
+  }
+  /* line 566, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .left-wrapper__rectangle-grey {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 572, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .title {
+    font-size: 60px;
+  }
+  /* line 576, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .right-wrapper {
+    z-index: 5;
+    width: 300px;
+    top: 75px;
+  }
+  /* line 580, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .right-wrapper__title {
+    font-size: 60px;
+  }
+  /* line 583, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .right-wrapper__text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  /* line 590, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 160px;
+    height: 50px;
+  }
+  /* line 596, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .buttons__icon-btn {
+    font-size: 14px;
+  }
+  /* line 601, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 605, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  /* line 610, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 616, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .elipse_dig {
+    width: 250px;
+    height: 250px;
+  }
+  /* line 621, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study {
+    padding: 10px 0 10px 0;
+  }
+  /* line 623, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 627, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square__text {
+    min-width: 220px;
+    transform-origin: 26% 14%;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  /* line 635, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary-square__img {
+    height: 220px;
+  }
+  /* line 639, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-primary__title {
+    font-size: 60px;
+    margin-bottom: 22px;
+  }
+  /* line 645, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary {
+    margin-top: 11px;
+  }
+  /* line 648, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary-item__title {
+    font-size: 27px;
+    margin-bottom: 2px;
+  }
+  /* line 653, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary-item__text {
+    font-size: 10px;
+  }
+  /* line 657, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary-item__img {
+    width: 60px;
+    height: 48px;
+  }
+  /* line 662, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary__first-elipse {
+    top: 38px;
+    right: -29px;
+  }
+  /* line 667, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .study-secondary__second-elipse {
+    top: 216px;
+    left: -111px;
+  }
+  /* line 673, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section {
+    min-height: 460px;
+  }
+  /* line 676, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__left-wrapper {
+    margin-right: 13px;
+  }
+  /* line 680, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__text {
+    font-size: 15px;
+    padding-top: 13px;
+    margin-bottom: 9px;
+  }
+  /* line 686, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__first-elipse {
+    top: 90px;
+    left: 91px;
+  }
+  /* line 691, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .third-section__figure {
+    top: 202px;
+    left: 3px;
+  }
+  /* line 697, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .title__hr {
+    font-size: 60px;
+  }
+  /* line 702, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .footer__title {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  /* line 707, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .footer__img {
+    width: 500px;
+  }
+  /* line 711, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .footer__container {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 718, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .container {
+    width: 540px;
+  }
+  /* line 722, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    background-color: #5290EA;
+    z-index: 20;
+    width: 50%;
+    transition: 1s all;
+  }
+  /* line 731, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 738, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 744, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 752, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger__span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 760, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger__span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 767, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger_active .hamburger__span {
+    margin-bottom: -2px;
+  }
+  /* line 770, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger_active .hamburger__span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 774, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger_active .hamburger__span:nth-child(2) {
+    display: none;
+  }
+  /* line 778, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .hamburger_active .hamburger__span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 784, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .nav-menu_active {
+    right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 790, ../../../../../../../../../../../../../Users/vz/Desktop/projects/project2course/src/sass/components.scss */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=components.css.map */
